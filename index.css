@@ -1,0 +1,259 @@
+body{
+    background-color: black;
+    color: beige;
+}
+.sidenav{
+    background-color: rgb(3, 59, 67);
+    width: 4%;
+    height: 100vh;
+    position: absolute;
+    border-radius: 7%;
+    top: 0%;
+    left: 0%;
+    padding-top: 1.5%;
+    padding-left: 2%; 
+    .dp{
+        margin-top: 300%;
+    }
+    .downone{
+        position: absolute;
+        bottom: 3%;
+        writing-mode: sideways-lr;
+        /* transform: rotate(180deg); */
+        margin-left: -14%;
+        
+    }
+}
+.dtop{
+    background-color: rgb(3, 59, 67);
+    position: absolute;
+    display: flex;
+    margin-left: 5.6%;
+    border-radius: 7%;
+    height: 14%;
+    width: 94%;
+    top: 0%;
+    gap: 5cm;
+    .fh2{
+        padding-left: 5%;
+        padding-top: 1%;
+        font-family: fantasy;
+        a{
+            color: azure;
+            text-decoration: none;
+        }
+    }
+    .the3{
+        display: flex;
+        gap: 3cm;
+        font-size: 10px;
+        padding-top: 2%;
+        a{
+            color: azure;
+            text-decoration: none;
+
+        }
+    }
+    .sh2{
+        display: flex;
+        gap: 3cm;
+        font-size: 15px;
+        padding-top: 2%;
+        a{
+            border: 1px solid azure;
+            text-decoration: none;
+            color: azure;
+            border-radius: 40%;
+            padding: 10px;
+        }
+    }
+}
+.mbody{
+    background-color: rgb(3, 59, 67);
+    position: relative;
+    margin-left: 5.7%;
+    margin-top: 7%;
+    height: 50vh;
+    display: block;
+    width: 95%;
+    border-radius: 2%;
+    .mbody1{
+        padding-top: 3%;
+        margin-left: 7%;
+        font-family: fantasy;
+        font-size: 30px;
+    }
+    .pmain{
+        display: flex;
+        a{
+            background-color: rgb(173, 255, 47);
+            text-decoration: none;
+            color: black;
+            border-radius: 45%;
+            font-size: xx-small;
+            margin-top: -3%;
+            padding-top: 1.3%;
+            width: 5%;
+            height: 4vh;
+            text-align: center;
+        }
+        h1{
+            margin-top: -4%;
+            margin-left: -10;
+        }
+    }
+    .onewith{
+        margin-left: 13%;
+        margin-top: -3%;
+        .tpo{
+            font-size: 30px;
+            font-family: fantasy;
+        }
+        .tpo2{
+            font-size: 10px;
+            margin-top: -2%;
+        }
+    }
+    .last{
+        /* position: absolute; */
+        margin-left: 80%;
+        margin-top: -17%;
+        color: black;
+        width: 10%;
+        padding-top: 0.1%;
+        height: 10vh;
+        text-align: center;
+        border-radius: 40%;
+        background-color: rgb(173, 255, 47);
+        .dp2{
+            margin-top: -6%;
+        }
+    }
+}
+.foot{
+    position: relative;
+    border-radius: 5%;
+    display: flex;
+    margin-left: 5.8%;
+    margin-top: 0.2%;
+    width: 95%;
+    height: 38.4vh;
+    font-family: fantasy;
+    .foot1{
+        background-color: rgb(3, 59, 67);
+        width: 34%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        margin-right: 3px;
+        .f1p{
+            margin-left: 15%;
+            margin-top: 5%;
+            border: 0.3px solid azure;
+            width: 40%;
+            text-align: center;
+            border-radius: 40%;
+        }
+        .f2p{
+            display: flex;
+            margin-left: 15%;
+            margin-top: 2%;
+            gap: 0.2cm;
+            .pfv{
+                border: 0.3px solid azure;
+                width: 20%;
+                border-radius: 40%;
+                text-align: center;
+            }
+            .pfp{
+                border: 0.3px solid azure;
+                width: 30%;
+                border-radius: 40%;
+                text-align: center;
+            }
+        }
+        .f3p{
+            display: flex;
+            margin-left: 15%;
+            margin-top: 2%;
+            gap: 0.2cm;
+            .fpl1{
+                border: 0.3px solid azure;
+                width: 15%;
+                border-radius: 40%;
+                text-align: center;
+            }
+            .fpl2{
+                border: 0.3px solid azure;
+                width: 25%;
+                border-radius: 40%;
+                text-align: center;
+            }
+        }
+        .llp{
+            margin-left: 15%;
+            margin-top: 10%;
+        }
+    }
+    .foot2{
+        background-color: rgb(128, 247, 59);
+        width: 34%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        margin-right: 3px;
+        .ft1{
+            margin: 10%;
+            margin-left: 15%;
+            width: 70%;
+            font-size: 20px;
+            color: black;
+        }
+        .ft2{
+            margin-left: 15%;
+            display: flex;
+            gap: 2cm;
+            /* .tdiv{
+                display: flex;
+                width: 10%;
+                height: 2vh;
+                gap: 0.3cm;
+                .sp1{
+                    background-color: rgb(197, 222, 222);
+                    height: 1vh;
+                    width: 1%;
+                }
+                .sp2{
+                    background-color: rgba(222, 164, 226, 0.522);
+                    height: 1vh;
+                    width: 1%;
+                }
+                .sp3{
+                    background-color: rgb(100, 67, 43);
+                    height: 1vh;
+                    width: 1%;
+                }
+            } */
+            .tdiv2{
+                color: black;
+                width: 10%;
+            }
+        }
+    }
+    .foot3{
+        background-color: rgb(180, 226, 234);
+        width: 34%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        margin-right: 3px;
+        .ftll{
+            margin-left: 20%;
+            font-size: 50px;
+            color: black;
+        }
+        .ftll2{
+            margin-left: 20%;
+            font-size: 15px;
+            color: black;
+            margin-top: -10%;
+        }
+    }
+}
